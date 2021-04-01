@@ -1,6 +1,51 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
 /* Fonte de Títulos */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;800&display=swap');
 
+/* Estilos Gerais */
+img {
+    max-width: 100%;
+}
+h1 {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: left;
+    vertical-align: Top;
+}
+
+/* Centralizando o conteúdo do Site */
 .content {
     width: 1110px;
 }
+
+/* Menu */
+#menu {
+    display: inline;
+}
+#menu ul {
+    list-style-type: none;    
+}
+#menu ul li {
+    font-style: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;    
+    display: inline;
+    text-decoration: none;
+}
+#menu ul li a {    
+    display: inline-block;
+}
+
+.logo {
+    width: 92.11px;
+    height: 24.59px;
+}
+
+/*Header */
