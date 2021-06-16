@@ -1,135 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSS Style-->
-    <link rel="stylesheet" href="css/style.css">
-    <!--FAV ICONS-->
-    <link rel="icon" href="img/tecnogueto-favicon-1-32x32.png" sizes="32x32" alt="Fav Icon Tecnogueto 32x32">
-    <link rel="icon" href="img/tecnogueto-favicon-1-180x180.png" sizes="180x180" alt="Fav Icon Tecnogueto 180x180">
-    <link rel="icon" href="img/tecnogueto-favicon-1-192x192.png" sizes="192x192" alt="Fav Icon Tecnogueto 192x192">
-    
-    <title>Tecnogueto App</title>
+    <title>Curso básico de HTML e CSS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/8cd635fca2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <main class="content">
-        <header>
-            <nav id="menu">
-                <img src="img/tecnogueto-horizontal-black1.png" alt="Logo-Tecnogueto" class="logo">
-                    <ul>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>                
-                <img src="img/apple-store.png" alt="Imagem-Apple-Store">
-                <img src="img/Google Play Badge.png" alt="Imagem-Google-App-Store"> 
-            </nav>
-            
-                <h1>Organize projetos.<br>Faça mais.</h1>        
-                <img src="img/smart-header.png" alt="Tecnogueto-app">
-                    <button>iniciar</button>        
-            </header>
+    <header class="cabecalho">
+        <div class="conteudo conteudo-do-header">
+            <div class="informacoes-do-cabecalho">
+                <img src="imagens/logo.png" alt="Logo da Tecnogueto" />
+                <nav>
+                    <a href="#">
+                        Sobre
+                    </a>
+                    <a href="#">
+                        Contato
+                    </a>
+                </nav>
+            </div>
+            <div class="botoes-lojas">
+                <a href="https://play.google.com/" target="_blank">
+                    <img src="imagens/botao-google-play.png" alt="Botão para o Google Play" />
+                </a>
+                <a href="https://www.apple.com/br/shop" target="_blank">
+                    <img src="imagens/botao-apple-store.png" alt="Botão para Apple Store" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="banner-princial">
+        <div class="conteudo">
+            <h1>Organize projetos. Faça mais.</h1>
+            <a href="" class="botao">Iniciar</a>  
+            <img src="imagens/iphone.png" alt="Imagem de um Iphone" class="imagem-celular">
+        </div>
+    </div>
+    <div class="conteudo">
+        <!-- Nossa primeira div   -->
+        <div class="titulo-de-sessao">
+            <h1 class="titulo">Recursos sob medida</h1>
+            <h2 class="sub-titulo">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a
+                document or visual
+                presentation.</h2>
+        </div>
 
-        <section>
-            <h2>Recursos sob medida</h2>
-            <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
+        <div class="todos-os-blocos-de-recursos">
+            <!-- Nossa primeira div   -->
+            <div class="bloco-de-recusos">
+                <i class="cor-rosa fab fa-confluence"></i>
+                <h3 class="titulo-bloco-de-recusos">Fluxo de trabalho robusto</h3>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual
+                    presentation.</p>
+            </div>
 
-            <img src="img/01.png" alt="Fluxo-de-trabalho-robusto">
-            <h3>Fluxo de trabalho robusto</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+            <!-- Nossa primeira div   -->
+            <div class="bloco-de-recusos">
+                <i class="cor-rosa fas fa-arrows-alt"></i>
+                <h3 class="titulo-bloco-de-recusos">Flexibilidade</h3>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual
+                    presentation.</p>
+            </div>
 
-            <img src="img/02.png" alt="Fluxo-de-trabalho-robusto">
-            <h3>Flexibilidade</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+            <!-- Nossa primeira div   -->
+            <div class="bloco-de-recusos">
+                <i class="cor-rosa fas fa-layer-group"></i>
+                <h3 class="titulo-bloco-de-recusos">Amigável do usuário</h3>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual
+                    presentation.</p>
+            </div>
 
-            <img src="img/03.png" alt="Fluxo-de-trabalho-robusto">
-            <h3>Amigável do usuário</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+            <!-- Nossa primeira div   -->
+            <div class="bloco-de-recusos">
+                <i class="cor-rosa fas fa-bezier-curve"></i>
+                <h3 class="titulo-bloco-de-recusos">Multiplos Layouts</h3>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual
+                    presentation.</p>
+            </div>
 
-            <img src="img/04.png" alt="Fluxo-de-trabalho-robusto">
-            <h3>Multiplos Layouts</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+            <!-- Nossa primeira div   -->
+            <div class="bloco-de-recusos">
+                <i class="cor-rosa fab fa-creative-commons-share"></i>
+                <h3 class="titulo-bloco-de-recusos">Melhores componentes</h3>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual
+                    presentation.</p>
+            </div>
 
-            <img src="img/05.png" alt="Fluxo-de-trabalho-robusto">
-            <h3>Melhores componentes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-
-            <img src="img/06.png" alt="Fluxo-de-trabalho-robusto">
-            <h3>Bem organizado</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-        </section>
-
-        <section>
-            <img src="img/aspas-grandes.png" alt="aspas-grandes">
-            <h2>Histórias reais de clientes reais</h2>
-            <p>Inspire-se com essas histórias.</p>
-
-            <img src="img/aspas-menor.png" alt="aspas-normais">
-            <p>To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organised and easily editable.</p>
-            <p>Floyd Miles</p>
-            <p>Vice President GoPro</p>
-
-            <p>I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it.</p>
-            <p>Jane Cooper</p>
-            <p>CEO, Airbnb</p>
-
-            <p>Landify saved our time in designing my company page.</p>
-            <p>Kristin Watson</p>
-            <p>Co-Founder, BookMyShow</p>
-        </section>
-
-        <section>
-            <h2>Nossos 18 anos de conquistas</h2>
-            <p>Com nossas forças, alcançamos estes resultados</p>
-        
-            <img src="img/07.png" alt="Downloads-diários">
-            <p>10,000+</p>
-            <p>Downloads por dia</p>
-
-            <img src="img/08.png" alt="Dois-milhões">
-            <p>2 milhões</p>
-            <p>Comercial</p>
-
-            <img src="img/09.png" alt="Mais-de-Quientos-Clientes">
-            <p>500+</p>
-            <p>Clientes</p>
-
-            <img src="img/10.png" alt="cento-e-quarenta-países">
-            <p>140</p>
-            <p>Países</p>
-        </section>
-
-        <section>
-            <img src="img/smart-no-footer.png" alt="Tecnogueto-app">
-            <h2>Título</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
-
-            <a href="#">Vamos lá -></a>
-        </section>
-
-        <section>
-
-            <h2>Gerencie seus projetos de seu celular</h2>
-            <p>Baixe o aplicativo para gerenciar seus projetos, acompanhar o andamento e concluir tarefas sem procastinar. Fique na linha e conclua no prazo!</p>
-
-            <p>Baixe o aplicatvivo</p>
-
-            <img src="img/Google Play Badge.png" alt="Imagem-Google-App-Store">
-
-            <img src="img/apple-store.png" alt="Imagem-Apple-Store">
-
-        </section>
-
-        <footer>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-
-            <p>© 2020 Tecnogueto. Todos os direitos reservados.</p>
-            
-            <img src="img/apple-store.png" alt="Imagem-Apple-Store">
-
-            <img src="img/Google Play Badge.png" alt="Imagem-Google-App-Store">
-        </footer>
-</main>
+            <!-- Nossa primeira div   -->
+            <div class="bloco-de-recusos">
+                <i class="cor-rosa fas fa-sitemap"></i>
+                <p class="titulo-bloco-de-recusos">Bem organizado</p>
+                <p>Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or
+                    visual
+                    presentation.</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

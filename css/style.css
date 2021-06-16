@@ -1,51 +1,103 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
 }
-/* Fonte de Títulos */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;800&display=swap');
 
-/* Estilos Gerais */
-img {
-    max-width: 100%;
-}
-h1 {
-    font-family: Manrope;
-    font-weight: 800;
-    font-size: 72px;
-    line-height: 98px;
-    text-align: left;
-    vertical-align: Top;
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    line-height: 26px;
 }
 
-/* Centralizando o conteúdo do Site */
-.content {
-    width: 1110px;
+.conteudo {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
 }
 
-/* Menu */
-#menu {
+.bloco-de-recusos {
+    text-align: center;
+    width: 30%;
+    margin: 50px 0 15px 0;
+}
+
+.bloco-de-recusos i {
+    font-size: 48px;
+}
+
+.cor-verde {
+    color: #28F5BE;
+}
+
+.cor-rosa {
+    color: #FF3773;
+}
+
+.titulo-bloco-de-recusos {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.todos-os-blocos-de-recursos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-#menu ul {
-    list-style-type: none;    
+
+.titulo-de-sessao {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
-#menu ul li {
-    font-style: bold;
+
+.titulo {
+    margin: 8px 0px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.sub-titulo {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: white;
+    /* box-shadow: 0px 1px 0px #E5E9F2; */
+    border-bottom: 1px solid #E5E9F2;
+    padding: 26px 0;
+}
+
+.conteudo-do-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes-do-cabecalho,
+.informacoes-do-cabecalho nav {
+    display: flex;
+    align-items: center;
+}
+
+.informacoes-do-cabecalho img,
+.informacoes-do-cabecalho nav a {
+    margin-right: 32px;
+}
+
+.informacoes-do-cabecalho nav a {
+    font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-    text-align: left;    
-    display: inline;
+    text-decoration: none;
+    color: #18191F;
+}
+
+.botoes-lojas a {
+    margin-right: 12px;
     text-decoration: none;
 }
-#menu ul li a {    
-    display: inline-block;
-}
-
-.logo {
-    width: 92.11px;
-    height: 24.59px;
-}
-
-/*Header */
